@@ -1,22 +1,23 @@
-import React, {createContext, useContext, useState, useEffect } from 'react'
+// import React, {createContext, useContext, useState, useEffect } from 'react'
+
 import './App.css';
 import Nav from './components/Nav';
 import Header from './components/Header';
 import Home from './components/Home'
-import { format } from 'date-fns'
-import { Navigate } from 'react-router-dom';
+// import { format } from 'date-fns'
+// import { Navigate } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
-import Post from './components/Post';
+// import Post from './components/Post';
 import About from './components/About'
 import Missing from './components/Missing';
 import NewPost from './components/NewPost';
 import PostPage from './components/PostPage';
-import { Link, useNavigate } from 'react-router-dom';
-import api from './Api/posts'
+// import { Link, useNavigate } from 'react-router-dom';
+// import api from './Api/posts'
 import EditPost from './components/EditPost';
-import useWindowsSize from './Hooks/useWindowsSize';
+// import useWindowsSize from './Hooks/useWindowsSize';
 
-import useAxiosFetch from './Hooks/useAxiosFetch';
+// import useAxiosFetch from './Hooks/useAxiosFetch';
 
 import { DataProvider } from './Context/dataContext'
 

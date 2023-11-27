@@ -1,10 +1,10 @@
-import React, { Children } from 'react';
+import React  from 'react';
 import { createContext, useEffect, useState } from 'react';
 import { format } from 'date-fns'
-import { Navigate } from 'react-router-dom';
+// import { Navigate } from 'react-router-dom';
 // import { useEffect,useState } from 'react';
-import Post from '../components/Post'
-import EditPost from '../components/EditPost';
+// import Post from '../components/Post'
+// import EditPost from '../components/EditPost';
 import useWindowsSize from '../Hooks/useWindowsSize';
 import useAxiosFetch from '../Hooks/useAxiosFetch';
 import api from '../Api/posts';
