@@ -26,7 +26,7 @@ function App() {
   return (
     <>
       <DataProvider>
-        <h1> Movie </h1>
+   
 
         <Header title="Movie Sear̥ch App" />
 
